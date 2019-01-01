@@ -147,14 +147,14 @@ export PKG_CONFIG_PATH=/app/.heroku/vendor/lib/pkg-config:/app/.heroku/python/li
 export PATH=$PATH:/app/.apt/usr/bin
 export C_INCLUDE_PATH=$C_INCLUDE_PATH:/app/.apt/usr/include:/app/.apt/usr/include/openbabel-2.0/openbabel
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/app/.apt/usr/include:/app/.apt/usr/include/openbabel-2.0/openbabel
-export INCLUDE_PATH=/app/.apt/usr/include:/app/.apt/usr/include/xmlsec1:$INCLUDE_PATH
+export INCLUDE_PATH=/app/.apt/usr/include:/app/.apt/usr/include/openbabel-2.0/openbabel:$INCLUDE_PATH
 export LIBRARY_PATH=$LIBRARY_PATH:/app/.apt/usr/lib/x86_64-linux-gnu:/app/.apt/usr/lib/i386-linux-gnu:/app/.apt/usr/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/app/.apt/usr/lib/x86_64-linux-gnu:/app/.apt/usr/lib/i386-linux-gnu:/app/.apt/usr/lib
 # export PYTHONPATH=/app/.apt/usr/lib/python2.7/dist-packages/
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/app/.apt/usr/lib/x86_64-linux-gnu/pkgconfig:/app/.apt/usr/lib/i386-linux-gnu/pkgconfig:/app/.apt/usr/lib/pkgconfig
 export CPATH=/app/.apt/usr/include:$CPATH
 export CPPPATH=/app/.apt/usr/include:$CPPPATH
-export SWIG_LIB=/app/.apt/usr/share/swig3.0/
+export SWIG_LIB=/app/.apt/usr/share/swig3.0
 # The Application Code
 # --------------------
 
